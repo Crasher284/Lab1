@@ -1,0 +1,24 @@
+n int
+e 1 rsz 3
+e 1 rsz -4
+
+e 1 add 5
+e 1 add 1
+e 1 add 7
+e 1 out
+e 1 get 2
+
+e 1 set 3 2
+e 1 out
+e 1 set 5 4
+
+n map 1
+e 2 out
+e 1 out
+e 1 whr
+e 2 whr
+
+n cnt 1 2
+e 3 out
+n srt 3
+e 4 out
